@@ -22,5 +22,13 @@ def array_42
   end
 end
 def magic_array
-  return magic_array.flatten.sort.map { |n| n * 2 }
+numbers = magic_array.flatten.sort.map { |n| n * 2 }
+result = 0
+numbers.each do |number|
+  if number % 3 == 0
+     numbers.delete(number)
+  else 
+  
+  end
+  end
 end
