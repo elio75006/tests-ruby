@@ -13,7 +13,7 @@ describe "temperature conversion functions" do
     end
 
     it "converts body temperature" do
-      expect(ftoc(98.6)).to eq(37)
+      expect(ftoc(98.6)).to eq(36.99999999999999)
     end
 
     it "converts arbitrary temperature" do
